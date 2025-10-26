@@ -30,19 +30,24 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		C0F221A62EAE390F001D963E /* journal1 */ = {
+		C0F221A62EAE390F001D963E /* journal1App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = journal1;
+			path = journal1App;
 			sourceTree = "<group>";
 		};
-		C0F221B42EAE3910001D963E /* journal1Tests */ = {
+		C0F221D12EAE3CC0001D963E /* Model */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = journal1Tests;
+			path = Model;
 			sourceTree = "<group>";
 		};
-		C0F221BE2EAE3910001D963E /* journal1UITests */ = {
+		C0F221D22EAE3CCB001D963E /* ViewModel */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = journal1UITests;
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C0F221DC2EAE3E45001D963E /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +80,10 @@
 		C0F2219B2EAE390F001D963E = {
 			isa = PBXGroup;
 			children = (
-				C0F221A62EAE390F001D963E /* journal1 */,
-				C0F221B42EAE3910001D963E /* journal1Tests */,
-				C0F221BE2EAE3910001D963E /* journal1UITests */,
+				C0F221DC2EAE3E45001D963E /* Views */,
+				C0F221D22EAE3CCB001D963E /* ViewModel */,
+				C0F221D12EAE3CC0001D963E /* Model */,
+				C0F221A62EAE390F001D963E /* journal1App */,
 				C0F221A52EAE390F001D963E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,7 +114,10 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				C0F221A62EAE390F001D963E /* journal1 */,
+				C0F221A62EAE390F001D963E /* journal1App */,
+				C0F221D12EAE3CC0001D963E /* Model */,
+				C0F221D22EAE3CCB001D963E /* ViewModel */,
+				C0F221DC2EAE3E45001D963E /* Views */,
 			);
 			name = journal1;
 			packageProductDependencies = (
@@ -130,9 +139,6 @@
 			dependencies = (
 				C0F221B32EAE3910001D963E /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				C0F221B42EAE3910001D963E /* journal1Tests */,
-			);
 			name = journal1Tests;
 			packageProductDependencies = (
 			);
@@ -152,9 +158,6 @@
 			);
 			dependencies = (
 				C0F221BD2EAE3910001D963E /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				C0F221BE2EAE3910001D963E /* journal1UITests */,
 			);
 			name = journal1UITests;
 			packageProductDependencies = (
